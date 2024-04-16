@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body, html{
+        font-family: 'Poppins', sans-serif;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+        body {
+        background-image: url('images/background.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 100vh; /* Ensure the container takes at least the full viewport height */
+        height: 50%;
+        margin-bottom: 100px;
+      }
+
+      h1{
+        text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 0 rgb(252, 252, 252), 0 -1px rgb(255, 255, 255);
+        margin-left: -24px; 
+        margin-top: 60px; 
+      }
+
+      .logo {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px; /* Added margin to create space between logo and form */
+        
+      }
+
+      .container {
+        width: 547px;
+        height: 365px;
+        background-color: rgba(0, 0, 0, 0.589); 
+        padding: 20px;
+        box-shadow: 0 0 10px rgb(0, 0, 0);
+        text-align: center;
+        align-items: center;
+        margin: auto; /* Center the container horizontally */
+      }
+
+      .container form {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .container input[type="text"]       ,
+      .container input[type="password"] {
+          width: 70%;
+          padding: 10px;
+          margin-top: 0;
+          margin-bottom: 30px;
+          border-radius: 13px;
+          border: 1px solid #cccccc;
+          box-sizing: border-box;
+          background-color: rgba(245, 241, 241, 0.692);   
+        } 
+
+        .container input[class="login"] {
+          width: 20%;
+          padding: 10px;
+          margin-top: 0px;
+          margin-bottom: 0;
+          border-radius: 13px;
+          border: 1px solid #cccccc;
+          box-sizing: border-box;
+          background-color: rgba(245, 241, 241, 0.692);
+          cursor: pointer; 
+        }
+
+      .forgot-password {
+        margin-right: 80px;
+        margin-top: -30px;
+        text-align: right;
+        text-decoration-line: none;
+        font-size: 14px;
+        color: #fff;
+        cursor: pointer;
+      }    
+          
+      .container p,a{
+        color:rgba(245, 241, 241, 0.925);
+        margin-top: 10px;
+        margin-bottom: -07px;
+      }
+      .forgot-password {
+        margin-right: 80px; /* Adjust the margin-right as needed */
+        margin-top: -30px; /* Adjust the margin-top as needed */
+        text-align: right;
+        text-decoration-line: none;
+        font-size: 14px;
+        color: #fff; /* Adjust the color as needed */
+        cursor: pointer;
+      }
