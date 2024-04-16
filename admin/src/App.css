@@ -1,0 +1,161 @@
+.inter-uniquifier {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" -0;
+}
+
+body, html {
+  font-family: "Inter", sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0; 
+  
+}
+
+body {
+  background-color: #f0f0f0; /* Set background color */
+}
+
+.logo {
+  margin-top: 35px; 
+  margin-left: -10px;
+  width: 100%;
+}
+
+.navbar {
+  width: 100%;
+  height: 90px; /* Adjust height */
+  background-color: #87CEEB;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* Adjust box shadow */
+  display: flex;
+  justify-content: space-between; /* Align items horizontally */
+  align-items: center; /* Align items vertically */
+  padding: 0 20px; /* Add padding to the navbar */
+  z-index: 1000; /* Ensure the navbar is above other content */
+  border-bottom: solid; /* Add border bottom */
+}
+
+.icon {
+  cursor: pointer;
+  margin-right: 96px;
+}
+
+.menu-btn {
+  position: fixed;
+  top: 100px;
+  left: 70px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  z-index: 1001; /* Ensure the button is above the navbar */
+}
+
+.menu {
+  position: fixed;
+  top: 93px; /* Adjust to be below the navbar */
+  left: -250px;
+  width: 250px;
+  height: calc(100% - 93px); /* Adjust to fill the remaining height */
+  background-color: #a1d4f89c;
+  transition: left 0.3s ease;
+  z-index: 1000; /* Ensure the menu is above other content */
+}
+
+.menu.active {
+  left: 0; /* Display the menu when active */
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul li {
+  padding: 0 10px; /* Adjust padding */
+  margin-top: 80px;
+}
+
+.menu ul li img {
+  display: inline-block; /* Set the display to inline-block */
+  vertical-align: middle; /* Align vertically with other text */
+  margin-top: -15px; /* Remove the margin */
+  margin-right: 10px; /* Adjust spacing between icon and text */
+  cursor: pointer;
+}
+.menu img{
+  width: 50px;
+  height: 50px;
+ 
+}
+
+.menu ul li img:hover {
+  background-color: #55555569;
+}
+
+.UnitList{
+  background-color: #87CEEB;
+  border-style: solid;
+  width: 97%;
+  margin-top: 10px;
+  height: 60px;
+}
+
+.UnitList p{
+ margin-left: 30px;
+ font-weight: 500;
+ font-size: 20px;
+}
+
+.UnitList input[type="text"] {
+  margin-left: 660px;
+  border-radius: 15px;
+  width: 300px;  
+  height: 20px;
+}   
+.search{
+  margin-top: -50px;
+
+}
+
+.add-btn{
+  margin-top: -23px;
+}
+.add-units-btn{
+  margin-top: -70px;
+  margin-left: 900px;
+  border-radius: 15px;
+  width: 140px;
+  height: 30px;
+  background-color: #87cfeb85;
+  cursor: pointer ;
+}
+
+.manage-units{
+  margin-left: 300px;
+}
+h2{
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+
+}
+
+.unit-details {
+  margin-bottom: 10px;
+}
+
+.unit-details input[type="text"] {
+  margin-right: 10px;
+}
+
+.unit-details button {
+  margin-left: 10px;
+}
+
+.editButton{
+  border-radius: 10px;
+}

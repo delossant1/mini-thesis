@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body, html{
+            font-family: 'Poppins', sans-serif;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+  
+
+        .ibarra-real nova-uniquifier {
+            font-family: "Ibarra Real Nova", serif;
+            font-optical-sizing: auto;
+            font-weight: 300;
+            font-style: normal;
+        }
+
+        .inter-uniquifier {
+          font-family: "Inter", sans-serif;
+          font-optical-sizing: auto;
+          font-weight: 300;
+          font-style: normal;
+          font-variation-settings:
+            "slnt" -0;
+        }
+        
+
+        body {
+            background-color: fffffff;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 100vh; /* Ensure the container takes at least the full viewport height */
+            min-width:100%;
+        
+        }
+        
+
+        .logo {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px; /* Added margin to create space between logo and form */
+            margin-top: -35px;
+        }
+        
+
+        .container {
+            width: 520px;
+            height: 0px;
+            background-color: rgba(255, 251, 251, 0); 
+            padding: 180px;
+            text-align: center;
+            align-items: center;
+            margin: auto; /* Center the container horizontally */
+            margin-top: -1000px;
+        }
+        .container h1 {
+          font-family: "Ibarra Real Nova", serif; 
+          width: 500px;
+          font-size: 55px;
+          margin-top: -10px;
+      }
+        .container2{
+            width: 800px;
+            height: 0px;
+            margin-top: 0px;
+            background-color: rgba(255, 251, 251, 0); 
+            padding: 0px;
+            text-align: center;
+            align-items: center;
+            margin: auto; /* Center the container horizontally */  
+        }      
+
+        .container2 h2{
+          font-family: "Inter", sans-serif;
+          font-weight: 320;
+        }      
+
+        .container3 {
+            width: 1000px;
+            height: 1000px;
+            padding: 0px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            text-align: center;
+            align-items: center; 
+            
+            
+        }
+        .container4 h4{
+          font-family: "Ibarra Real Nova", serif;
+        }
+        
+        .container4{
+            font-family:sans-serif;
+            font-size: 190%;
+            text-align: center;
+            background-color: #EBEDEF;
+        }
+        .container5{
+            font-family: initial;
+            font-size: 100%;
+            text-align: center;
+            background-color: #ffffff;
+            height: 500px; 
+        }
+
+        .container5 h4{
+          font-family: "Ibarra Real Nova", serif;
+      }
+
+        .container6{
+            width: 1200px;
+            font-family: initial;
+            font-size: 100%;
+            text-align: center;
+            background-color: #85C1E9;
+            height: 360px;
+            margin-top: -520px;
+            font-family:sans-serif;
+            font-size: 190%;
+            text-align: center;
+            margin-left: 75px;
+        }
+
+        .container6 h4{
+          font-family: "Ibarra Real Nova", serif;
+      }
+
+    .navbar {
+        position: fixed;
+        width: 105%;
+        height: 135px;
+        z-index: 999;
+        padding:  0;
+        margin-top: -55px;
+        font-family: "Ubuntu", sans-serif;
+        transition: all 0.3s ease;
+        background-color:#87CEEB;
+      }
+      .navbar.sticky {
+        padding: 15px 0;
+        Background-image: radial-gradient(circle at top right, #00A4CCFF, #F95700FF);
+      }
+      .navbar .max-width {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      
+      .navbar.sticky .logo a span {
+        color: #fff;
+        
+      }
+      .navbar .menu li {
+        list-style: none;
+        display: inline-block;
+        margin-bottom: 65px;
+      }
+      /*navbar texts & color*/
+      .navbar .menu li a {
+        display: block;
+        color: #000;
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 25px;
+        text-decoration: none;
+      }
+      .navbar .menu li a:hover {
+        color: rgb(76, 0, 255)
+      }
+
+      .button-wrapper {
+        display: flex;
+        justify-content: center;
+        margin-top: 120px; /* Adjust as needed */
+    }
+    
+    .button {
+        width: 130px; /* Adjust width as needed */
+        height: 60px;
+        padding: 10px;
+        box-sizing: border-box;
+        background-color: #0c083da9;
+        cursor: pointer;
+        color: #fff;
+        border: 1px solid #cccccc00;
+    }
+
+
+    .column {
+        float: left;
+        width: 24%;
+        padding: 55px;
+       
+        
+      }
+      
+      /* Remove extra left and right margins, due to padding in columns */
+      .row {margin: 0 -5px;}
+      
+      .row p{
+        font-family: "Ibarra Real Nova", serif; 
+        font-size: large;
+        font-weight: 500;
+      }
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+    .card {
+        /* Add shadows to create the "card" effect */
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        margin-top: 125px;
+        margin-left: 10px;
+        width: fit-content;
+      }
+      
+      .card2 {
+        /* Add shadows to create the "card" effect */
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.692);
+        transition: 0.3s;
+        margin-top: 20px;
+        margin-left: 10px;
+        width: fit-content;
+      }
+      /* On mouse-over, add a deeper shadow */
+      .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      }
+      
+      /* Add some padding inside the card container */
+      .card1 {
+        padding: 2px 16px;
+      }
+
+      .cardtext {
+        padding: 2px 6px;
+      }
+
+      .pic{
+        padding: 4px 8px;
+        width: fit-content; 
+      }
+
+      
+      .container6 input[type="text"]
+       {
+        padding: 12px; /* Increased padding for better appearance */
+        margin-top: -05px;
+        border-radius: 25px; /* Rounded corners */
+        border: 15px solid #85C1E9; /* Custom border color */
+        background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+        outline: none; /* Remove default focus outline */
+        transition: border-color 0.3s ease; /* Smooth transition for border color */
+        font-size: 16px; /* Adjust font size */
+        font-family: 'Inter', sans-serif; /* Custom font family */
+    }
+      
+    .inquiry{
+        margin-right: 800px;
+    }
+    .firstname{
+        margin-right: 1010px;
+    }
+    .lastname{
+        margin-right: 415px;
+        margin-top: -68px;
+    } 
+    .email{
+      margin-right: 1010px;
+    }
+    .mobile{
+      margin-top: -68px;
+      margin-right: 415px;
+    }
+    .address{
+      margin-right: 800px;
+    }   
+    .message{
+      margin-left: 640px;
+      margin-top: -277px;
+    }  
+
+    .container6 textarea[name="message"]
+       {
+        height: 100px;
+        padding: 12px; /* Increased padding for better appearance */
+        margin-top: -05px;
+        border-radius: 25px; /* Rounded corners */
+        border: 15px solid #85C1E9; /* Custom border color */
+        background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+        outline: none; /* Remove default focus outline */
+        transition: border-color 0.3s ease; /* Smooth transition for border color */
+        font-size: 16px; /* Adjust font size */
+        font-family: 'Inter', sans-serif; /* Custom font family */
+    }
+    .container6 input[type="checkbox"]{
+        width: 70px;
+        height: 40px;
+        border-radius: 50%;
+        margin-top: -2px;
+        margin-right: 400px;
+        cursor: pointer;     
+    }
+    .container6 p{
+      font-size: 40%;
+      margin-top: -32px;
+      margin-left: 50px;
+      /*font-family: ;*/
+    }
+    
+    .send{
+      margin-inline-start: 55%;
+      border-radius: 15px;
+      width: 130px; /* Adjust width as needed */
+      height: 45px;
+      padding: 10px;
+      background-color: #03588075;
+      cursor: pointer;
+      color: #fff;
+      border: 1px solid #cccccc00;
+    }
+    .footer{
+      background-color: #cbccce;
+      height: 300px;
+      margin-top: 20px;
+      
+    }
+    .footerlogo{
+      margin-top: -30px;
+      margin-left: 80px;
+    }
+    .footer h4{
+      margin-top: -110px;
+      margin-left: 110px;
+      font-weight: 100;
+      font-size: large;
+      font-family: "Ibarra Real Nova", serif;
+    }
+    .twitter{
+      margin-left: 105px;
+      padding: 10px, 0 0 10px;
+      cursor: pointer;
+    }
+    .fb{
+      margin-left: 135px;
+      margin-top: -42px;
+      padding: 10px;
+      cursor: pointer;
+    }
+    .insta{
+      margin-left: 185px;
+      margin-top: -53px;
+      padding: 10px;
+      cursor: pointer;
+    }
+    .linkedin{
+      margin-left: 228px;
+      margin-top: -52px;
+      padding: 10px;
+      cursor: pointer;
+    }
+    .sheng{
+      margin-left: 275px;
+      margin-top: -45px;
+      padding: 0  10px;
+      cursor: pointer;
+    }
+    .preselling{
+      margin-top:-95px; 
+      margin-left: 850px;
+      
+    }
+    .occupancy{
+      padding-top: 8px;
+      margin-left: 850px;
+    }
+    .aboutUs{
+      padding-top: 8px;
+      margin-left: 850px;
+    }
+    .projects{
+      margin-top:-70px; 
+      margin-left: 1100px;
+    }
+    .events{
+      padding-top: 8px;
+      margin-left: 1100px;
+    }
+    .contactUs{
+      padding-top: 8px;
+      margin-left: 1100px;
+    }
+    .copyright{
+      margin-top: 180px;
+      text-align: center;
+    }
+    
+
+      @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+          display: block;
+          margin-bottom: 20px;
+        }
+      }

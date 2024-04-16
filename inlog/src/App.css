@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@font-face {
+    font-family: 'Inter';
+    src: local('InterTight-Light'), url('./fonts/InterTight-Light.ttf') format('truetype');
+  }
+  
+  
+
+body, html {
+  font-family: 'Poppins', sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  height: 100%;
+  margin-bottom: 100px;
+}
+
+.inter-uniquifier {
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: 'slnt' -0;
+}
+
+h1 {
+  text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 0 rgb(252, 252, 252), 0 -1px rgb(255, 255, 255);
+  margin-left: -24px;
+  margin-top: 60px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: -15px;
+}
+
+.container {
+  width: 547px;
+  height: 580px;
+  background-color: rgba(0, 0, 0, 0.589);
+  padding: 20px;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  margin-top: -40px;
+}
+
+.container h2 {
+  color: #ffffff;
+  font-weight: 200;
+  font-family: 'Inter', sans-serif;
+  margin-top: -35px;
+  width: auto;
+  font-size: 30px;
+}
+
+.container form {
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-container {
+  margin-top: -20px;
+}
+
+.container input[type="text"],
+.container input[type="password"] {
+  width: 70%;
+  padding: 10px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  border-radius: 13px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  background-color: rgba(245, 241, 241, 0.692);
+  color: black;
+}
+
+.firstname {
+  margin-left: 43px;
+  width: 255px;
+}
+
+.lastname {
+  margin-left: 235px;
+  margin-top: -62px;
+  width: 270px;
+}
+
+.container input[class="Join"] {
+  width: 70%;
+  padding: 10px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  border-radius: 13px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  background-color: rgba(245, 241, 241, 0.692);
+  cursor: pointer;
+}
+
+.container input[class="fb"] {
+  width: 70%;
+  padding: 10px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  border-radius: 13px;
+  border: 1px solid #cccccc00;
+  box-sizing: border-box;
+  background-color: #5089d3b6;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+
+.fb-btn {
+  margin-top: -20px;
+}
+
+.forgot-password {
+  margin-right: 80px;
+  text-align: right;
+  text-decoration-line: none;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.container p,
+a {
+  color: rgba(245, 241, 241, 0.925);
+  margin-top: 10px;
+  margin-bottom: -07px;
+}
